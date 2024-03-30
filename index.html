@@ -3,79 +3,101 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>个人简历</title>
+    <title>赵汉青的个人简历</title>
     <style>
         body {
+            background-image: url('cyberpunk_background.gif');
+            background-size: cover;
             font-family: Arial, sans-serif;
-            margin: 20px;
-        }
-        h1 {
-            color: #333;
-            text-align: center;
+            margin: 0;
+            padding: 0;
         }
         .container {
             max-width: 800px;
-            margin: 0 auto;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.7);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        h1 {
+            font-size: 36px;
+            color: #FFD700; /* 金色 */
+            text-align: center;
+            margin-bottom: 30px;
         }
         .section {
             margin-bottom: 30px;
         }
-        .section h2 {
-            color: #666;
+        h2 {
+            color: #00FFFF; /* 青色 */
         }
-        .section p {
+        p {
             line-height: 1.6;
         }
-        .section img {
+        img {
             max-width: 100%;
             height: auto;
             display: block;
             margin: 0 auto;
+            border-radius: 10px;
+        }
+        .left {
+            float: left;
+            width: 60%;
+            padding-right: 20px;
+        }
+        .right {
+            float: left;
+            width: 40%;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>个人简历</h1>
+        <h1>赵汉青</h1>
 
-        <div class="section">
-            <h2>个人信息</h2>
-            <p>姓名：张三</p>
-            <p>年龄：25岁</p>
-            <p>学历：本科</p>
-            <p>联系方式：zhangsan@example.com</p>
+        <div class="left">
+            <div class="section">
+                <h2 style="color: #FF69B4;">个人信息</h2>
+                <p>年龄：25岁</p>
+                <p>学历：本科</p>
+                <p>联系方式：hanqing@example.com</p>
+            </div>
+
+            <div class="section">
+                <h2 style="color: #FF6347;">教育背景</h2>
+                <p>XXXX大学，计算机科学与技术专业，本科毕业</p>
+                <p>XXXX高中，理科班</p>
+            </div>
+
+            <div class="section">
+                <h2 style="color: #00FF00;">工作经历</h2>
+                <p>XXXX公司，软件工程师（2019年至今）</p>
+                <p>XXXX公司，实习软件工程师（2018年）</p>
+            </div>
+
+            <div class="section">
+                <h2 style="color: #FFD700;">技能专长</h2>
+                <ul>
+                    <li>熟练掌握HTML、CSS、JavaScript等前端技术</li>
+                    <li>熟悉Java、Python等编程语言</li>
+                    <li>了解数据库设计与优化</li>
+                    <li>良好的团队合作与沟通能力</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2 style="color: #9932CC;">个人兴趣爱好</h2>
+                <p>阅读、篮球、旅行</p>
+            </div>
         </div>
 
-        <div class="section">
-            <h2>教育背景</h2>
-            <p>XXXX大学，计算机科学与技术专业，本科毕业</p>
-            <p>XXXX高中，理科班</p>
-        </div>
-
-        <div class="section">
-            <h2>工作经历</h2>
-            <p>XXXX公司，软件工程师（2019年至今）</p>
-            <p>XXXX公司，实习软件工程师（2018年）</p>
-        </div>
-
-        <div class="section">
-            <h2>技能专长</h2>
-            <ul>
-                <li>熟练掌握HTML、CSS、JavaScript等前端技术</li>
-                <li>熟悉Java、Python等编程语言</li>
-                <li>了解数据库设计与优化</li>
-                <li>良好的团队合作与沟通能力</li>
-            </ul>
-        </div>
-
-        <div class="section">
-            <h2>个人兴趣爱好</h2>
-            <p>阅读、篮球、旅行</p>
-        </div>
-
-        <div class="section">
-            <h2>个人照片</h2>
-            <img src="your_photo.jpg" alt="个人照片">
+        <div class="right">
+            <div class="section">
+                <h2 style="color: #4169E1;">个人照片</h2>
+                <img src="hanqing_photo.jpg" alt="赵汉青的照片">
+            </div>
         </div>
     </div>
 </body>
